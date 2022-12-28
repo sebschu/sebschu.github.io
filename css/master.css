@@ -1,0 +1,89 @@
+body {
+  font-family: 'Helvetica Neue', 'Helvetica', 'sans-serif';
+  font-weight: light;
+  background-color: #4D4F53 ;
+}
+
+
+#wrapper {
+  display: block;
+  width: 780px;
+  margin: 30px auto 0;
+  background-color: #fff;
+  padding: 15px;
+}
+
+#header {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  margin: 0 0 2em;
+}
+
+#header-left {
+  width:195px;
+  float:left;
+}
+
+#header-right {
+  padding: 20px 0 0;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 1.6em;
+  margin: 0 0 10px 0;
+}
+
+h2 {
+  font-weight: normal;
+  margin: 1em 0 0.5em;
+  
+}
+
+p {
+  margin: 0 0 10px;
+  line-height: 1.4em;
+}
+
+ul li {
+  margin: 1em 0  1em;
+  line-height: 1.4em;
+}
+
+a {
+  color: #8C1515;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*.twitter {
+  padding: 0 0 0 20px;
+  background-image: url('twitter_2.png');
+  background-repeat: no-repeat;
+  background-position: 0 2px;
+}*/
+
+/*.mail {
+  padding: 0 0 0 20px;
+  background-image: url('mail.png');
+  background-repeat: no-repeat;
+  background-position: 0 2px;
+  
+}
+*/
+
+.pub-links a {
+  background-color: #4D4F53;
+      padding: 3px 8px;
+      border-radius: 3px;
+      color: white;
+      font-size: 0.8em;
+}
+
+.pub-links a:hover {
+  text-decoration: none;
+}
