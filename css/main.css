@@ -4,6 +4,18 @@ body {
   padding-bottom: 20px;
 }
 
+.contact-links a {
+  text-decoration: none;
+}
+
+.contact-links .fas, .contact-links .fab {
+  width: 23px;
+}
+
+.navbar {
+  background-color: #e3f2fd;
+}
+
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
@@ -28,6 +40,26 @@ body {
   padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
+}
+
+
+.publications-list .btn-sm {
+  font-size: 0.65rem;
+  --bs-btn-padding-y: 0;
+  
+}
+
+@media (max-width: 400px) {
+  .portrait-image {
+    width: 140px;
+    height: 187px;
+  }
+}
+
+@media (max-width: 300px) {
+  .portrait-image-container {
+    display: none;
+  }
 }
 
 /* Customize container */
@@ -74,3 +106,4 @@ body {
     border-bottom: 0;
   }
 }
+
